@@ -63,6 +63,15 @@ int maxY = 0;
 int offX = 0;
 int offY = 0;
 
+/*suggestion
+define minX 0
+define maxX 0
+define minY 0
+define maxY 0
+define offX 0
+define offY 0
+*/
+
 void setup_qmc5883() {
   compass.begin();
   if (compass.isQMC()) {
